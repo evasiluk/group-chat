@@ -22,3 +22,4 @@ Route::post('/group/{id}/messages', 'ConversationController@messages');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/messenger', 'MessengerController@index');

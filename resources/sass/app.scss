@@ -42,3 +42,71 @@
   padding: 5px;
   border-radius: 5px;
 }
+
+
+
+
+
+/* */
+.groups-list {
+  border: 1px solid gainsboro;
+  padding: 0;
+  background-color: #ffffff;
+  height: auto;
+  height: 350px;
+  overflow: auto;
+}
+
+.group-item {
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: large;
+  border-bottom: 1px solid gainsboro;
+}
+
+.group-item:hover {
+  background-color: #F6F6F6;
+  cursor: pointer;
+}
+
+.group-item.active {
+  background-color: #F0F4F8;
+}
+
+.group-item.active:hover {
+  background-color: #F0F4F8;
+}
+
+.group-item.new-message {
+  background-color: #F88400;
+}
+
+.group-item.new-message:hover {
+  background-color: #F88400;
+}
+
+.group-messages {
+  height: 350px;
+  overflow: auto;
+}
+
+.group-messages.init {
+  text-align: center;
+}
+
+.group-messages.init > p {
+  position: relative;
+  top: 45%;
+}
+
+.new-circle {
+  vertical-align: middle;
+  display:inline-block;
+  width: 10px;
+  height: 10px;
+  background: red;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}

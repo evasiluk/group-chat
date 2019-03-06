@@ -65,7 +65,6 @@
                 axios.post('/conversations', {message: this.textMessage, group_id: this.group.id})
                 .then((response) => {
                     if(response.status == 201) {
-                    console.log(response);
                         this.conversations.push({message: this.textMessage, user_id: response.data.user_id, user: response.data.user});
                         this.textMessage = "";
                     }

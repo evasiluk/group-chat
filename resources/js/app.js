@@ -26,6 +26,10 @@ Vue.component('create-group', require('./components/CreateGroup.vue').default);
 Vue.component('groups', require('./components/Groups.vue').default);
 Vue.component('group-chat', require('./components/GroupChat.vue').default);
 
+
+Vue.component('messenger-create-group', require('./components/MessengerCreateGroup.vue').default);
+Vue.component('messenger-groups', require('./components/MessengerGroups.vue').default);
+Vue.component('messenger-group-chat', require('./components/MessengerGroupChat.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
