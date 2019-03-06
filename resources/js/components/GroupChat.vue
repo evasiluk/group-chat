@@ -43,7 +43,6 @@
             collapseId: function() {
                 return "collapse-" + this.group_id;
             },
-
             collapseIdTarget: function() {
                 return "#collapse-" + this.group_id;
             },
