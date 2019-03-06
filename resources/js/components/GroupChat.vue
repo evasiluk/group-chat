@@ -1,12 +1,12 @@
 <template>
    <div class="container">
        <br>
-       <p>
-            <button v-on:click="toggleChatIsOpen" class="btn btn-primary" type="button" data-toggle="collapse" :data-target="collapseIdTarget" aria-expanded="false" aria-controls="collapseExample">
-                {{group.name}}
-            </button>
-            <span class="text-success" v-if="newUnreadMessage">New messages</span>
-        </p>
+           <p>
+               <button v-on:click="toggleChatIsOpen" class="btn btn-primary" type="button" data-toggle="collapse" :data-target="collapseIdTarget" aria-expanded="false" aria-controls="collapseExample">
+                   {{group.name}}
+               </button>
+               <span class="text-success" v-if="newUnreadMessage">New messages</span>
+           </p>
        <hr>
        <div class="row collapse" :id="collapseId">
            <div class="col-sm-12">
