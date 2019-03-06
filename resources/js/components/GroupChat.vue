@@ -3,7 +3,7 @@
        <br>
        <p>
             <button v-on:click="toggleChatIsOpen" class="btn btn-primary" type="button" data-toggle="collapse" :data-target="collapseIdTarget" aria-expanded="false" aria-controls="collapseExample">
-              {{group.name}}
+                {{group.name}}
             </button>
             <span class="text-success" v-if="newUnreadMessage">New messages</span>
         </p>

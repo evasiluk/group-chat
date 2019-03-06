@@ -47400,7 +47400,7 @@ var render = function() {
           },
           on: { click: _vm.toggleChatIsOpen }
         },
-        [_vm._v("\n           " + _vm._s(_vm.group.name) + "\n         ")]
+        [_vm._v("\n             " + _vm._s(_vm.group.name) + "\n         ")]
       ),
       _vm._v(" "),
       _vm.newUnreadMessage
